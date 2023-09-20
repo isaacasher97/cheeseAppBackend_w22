@@ -7,4 +7,4 @@ class CheeseSerializer(serializers.HyperlinkedModelSerializer):
         #models to serialize
         model = Cheese
         #fields to show in json
-        fields = ('name', 'origin_country', 'typeOfCheese')
+        fields = ('id', 'name', 'origin_country', 'typeOfCheese')
